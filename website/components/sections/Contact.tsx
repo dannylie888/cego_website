@@ -61,8 +61,8 @@ export default function Contact() {
   const inputCls = 'w-full bg-transparent border-b border-[#1A1512]/20 focus:border-[#C8A96E] py-3.5 text-sm text-[#1A1512] placeholder-[#6B5E52]/55 outline-none transition-colors duration-300';
 
   return (
-    <section id="contact" ref={sectionRef} className="py-24 md:py-32 bg-[#F4EFE4] overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="contact" ref={sectionRef} className="py-32 md:py-40 bg-[#F4EFE4] overflow-hidden">
+      <div className="max-w-screen-2xl mx-auto px-6 sm:px-8">
 
         {/* Centred header */}
         <div className="text-center mb-16">

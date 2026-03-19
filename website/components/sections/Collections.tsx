@@ -46,8 +46,8 @@ export default function Collections() {
   }, []);
 
   return (
-    <section id="collections" ref={sectionRef} className="py-24 md:py-32 bg-[#1A1512]">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="collections" ref={sectionRef} className="py-32 md:py-40 bg-[#1A1512]">
+      <div className="max-w-screen-2xl mx-auto px-6 sm:px-8">
 
         {/* Centred title block */}
         <div ref={titleRef} className="text-center mb-16">
@@ -82,15 +82,15 @@ export default function Collections() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1A1512]/90 via-[#1A1512]/10 to-transparent
                               opacity-70 group-hover:opacity-95 transition-opacity duration-500" />
-              <div className="absolute inset-x-0 bottom-0 p-4 md:p-5
+              <div className="absolute inset-x-0 bottom-0 p-4 md:p-5 text-center
                               translate-y-1 group-hover:translate-y-0 transition-transform duration-500">
-                <span className="block w-5 h-px mb-3" style={{ backgroundColor: accent }} />
-                <h3 className="text-[11px] font-semibold tracking-widest uppercase text-[#F4EFE4] mb-1 truncate">
+                <span className="block w-5 h-px mb-3 mx-auto" style={{ backgroundColor: accent }} />
+                <h3 className="text-[11px] font-semibold tracking-widest uppercase text-[#F4EFE4] mb-1">
                   {tc(`${key}.name`)}
                 </h3>
                 <p className="text-[10px] text-[#F4EFE4]/55 leading-relaxed
                                opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100
-                               line-clamp-2">
+                               line-clamp-2 px-2">
                   {tc(`${key}.desc`)}
                 </p>
               </div>

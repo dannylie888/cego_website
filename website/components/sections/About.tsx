@@ -53,8 +53,8 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" ref={sectionRef} className="py-24 md:py-32 bg-[#F4EFE4]">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="about" ref={sectionRef} className="py-32 md:py-40 bg-[#F4EFE4]">
+      <div className="max-w-screen-2xl mx-auto px-6 sm:px-8">
 
         {/* Centered section header */}
         <div className="text-center mb-16">

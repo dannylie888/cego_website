@@ -108,8 +108,8 @@ export default function Catalog() {
   }, [handlePage]);
 
   return (
-    <section id="catalog" ref={sectionRef} className="py-24 md:py-32 bg-[#F4EFE4] overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="catalog" ref={sectionRef} className="py-32 md:py-40 bg-[#F4EFE4] overflow-hidden">
+      <div className="max-w-screen-2xl mx-auto px-6 sm:px-8">
 
         {/* Header */}
         <div ref={headerRef} className="text-center mb-14">
