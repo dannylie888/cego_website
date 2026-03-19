@@ -71,3 +71,24 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Section spacing */
+#about,
+#collections,
+#catalog,
+#why-cego,
+#contact {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  #about,
+  #collections,
+  #catalog,
+  #why-cego,
+  #contact {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+}
