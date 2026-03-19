@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "collections": "Collections",
+    "catalog": "Catalog",
+    "whyCego": "Why Cego",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline1": "Crafted for the Table.",
+    "headline2": "Built to Last.",
+    "subheadline": "Premium ceramic tableware for restaurants, hotels & fine dining.",
+    "cta1": "Explore Collections",
+    "cta2": "View Catalog",
+    "scroll": "Discover"
+  },
+  "about": {
+    "label": "Our Story",
+    "heading": "Where Tradition Meets the Modern Table",
+    "p1": "Cego Ceramics was born from a deep reverence for Thai artisanal craft. Every piece that leaves our kilns carries the weight of tradition—formed by skilled hands, fired with precision, and glazed with character.",
+    "p2": "From intimate bistros to five-star dining rooms, our tableware elevates every meal into an experience. We believe the vessel is as important as what it holds.",
+    "stat1": { "value": "500+", "label": "SKUs Available" },
+    "stat2": { "value": "10+", "label": "Unique Collections" },
+    "stat3": { "value": "200+", "label": "Restaurant Partners" }
+  },
+  "collections": {
+    "label": "Our Collections",
+    "heading": "Crafted in Every Colour",
+    "subheading": "Explore our range of handcrafted ceramic tableware collections, each with its own story and character.",
+    "items": {
+      "blueWhite": { "name": "Blue & White", "desc": "Classic cobalt blue patterns inspired by centuries of ceramic tradition." },
+      "mattBrown": { "name": "Matt Brown", "desc": "Earthy matte tones that evoke warmth, rustic charm, and natural beauty." },
+      "dustyIron": { "name": "Dusty Iron", "desc": "Rustic iron-wash finish with organic texture and deep smoky tones." },
+      "twoTone": { "name": "Two-Tone", "desc": "Dual-glaze artistry where two worlds of colour meet in harmony." },
+      "brush": { "name": "Brush Collection", "desc": "Freehand painted brushstrokes that celebrate the joy of imperfection." },
+      "bpgp": { "name": "BP & GP", "desc": "Bold pearl and gold finishes — the choice for luxury tablescapes." },
+      "halfWhite": { "name": "Half White", "desc": "Minimalist elegance through restrained form and pure bisque tone." },
+      "whitePearl": { "name": "White Pearl", "desc": "Luminescent pure-white glaze that radiates light with every course." }
+    }
+  },
+  "catalog": {
+    "label": "Product Catalog",
+    "heading": "Browse Our Full Range",
+    "subheading": "Click any piece to view in detail. Filter by collection to find your perfect match.",
+    "filters": {
+      "all": "All",
+      "blueWhite": "Blue & White",
+      "mattBrown": "Matt Brown",
+      "dustyIron": "Dusty Iron",
+      "twoTone": "Two-Tone",
+      "brush": "Brush",
+      "bpgp": "BP & GP"
+    }
+  },
+  "whyCego": {
+    "label": "Why Cego",
+    "heading": "Built on Craft. Trusted by Professionals.",
+    "subheading": "We don't just make plates. We make the foundation of memorable dining experiences.",
+    "features": {
+      "craft": { "title": "Traditional Thai Craftsmanship", "desc": "Every piece is shaped and glazed by skilled Thai artisans with decades of experience passed down through generations." },
+      "eco": { "title": "Eco-Friendly Glazing Process", "desc": "Our glazes use environmentally responsible compounds, minimising waste and reducing our carbon footprint at every stage." },
+      "safe": { "title": "Food-Safe Certified", "desc": "All Cego ceramics meet international food-safety standards — lead-free, cadmium-free, and safe for everyday professional use." },
+      "custom": { "title": "Custom & OEM Available", "desc": "From bespoke shapes to custom glaze colours and branded engravings — we bring your vision to life at scale." },
+      "export": { "title": "Worldwide Export Ready", "desc": "We ship to hotels, restaurants and distributors across Asia, Europe and beyond, with reliable logistics partnerships." },
+      "durable": { "title": "Durable Lead-Free Materials", "desc": "High-fired stoneware and porcelain bodies built to withstand the demands of professional kitchens and dishwashers." }
+    }
+  },
+  "contact": {
+    "label": "Get in Touch",
+    "heading": "Let's Talk Ceramics",
+    "subheading": "Interested in our collections or a custom order? We'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "subjects": ["General Inquiry", "Custom Order", "Wholesale / OEM", "Export Inquiry", "Other"],
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "address": "123 Ceramic Lane, Bangkok 10110, Thailand",
+      "phone": "+66 2 123 4567",
+      "email": "hello@cego-ceramics.com",
+      "line": "@cego.ceramics",
+      "hours": "Mon–Fri, 9:00–18:00 ICT"
+    }
+  },
+  "footer": {
+    "tagline": "Ceramic artistry for the modern table.",
+    "copyright": "© 2026 Cego Ceramics. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}
