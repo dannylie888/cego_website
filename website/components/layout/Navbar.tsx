@@ -53,7 +53,7 @@ export default function Navbar() {
         scrolled ? 'bg-[#1A1512]/95 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5'
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 sm:px-8 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
         {/* Logo */}
         <button onClick={() => handleNav('home')} className="flex flex-col leading-none">
           <span className="text-2xl font-bold tracking-[0.3em] text-[#F4EFE4] font-serif">CEGO</span>
@@ -88,7 +88,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div ref={menuRef} className="md:hidden overflow-hidden h-0 opacity-0 bg-[#1A1512]/98">
-        <div className="max-w-6xl mx-auto px-6 sm:px-8 py-8 flex flex-col gap-6">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-8 flex flex-col gap-6">
           {navLinks.map((key) => (
             <button
               key={key}

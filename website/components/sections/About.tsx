@@ -54,7 +54,7 @@ export default function About() {
 
   return (
     <section id="about" ref={sectionRef} className="py-24 md:py-32 bg-[#F4EFE4]">
-      <div className="max-w-6xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
 
         {/* Centered section header */}
         <div className="text-center mb-16">
@@ -67,8 +67,8 @@ export default function About() {
 
         {/* Two-column body */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-start mb-20">
-          {/* Text — centered on mobile, left on desktop */}
-          <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
+          {/* Text — centered */}
+          <div className="text-center flex flex-col items-center">
             <p className="reveal-line text-[#6B5E52] leading-relaxed mb-6 text-base max-w-prose">
               {t('p1')}
             </p>

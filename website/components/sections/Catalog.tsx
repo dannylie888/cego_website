@@ -109,7 +109,7 @@ export default function Catalog() {
 
   return (
     <section id="catalog" ref={sectionRef} className="py-24 md:py-32 bg-[#F4EFE4] overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
 
         {/* Header */}
         <div ref={headerRef} className="text-center mb-14">

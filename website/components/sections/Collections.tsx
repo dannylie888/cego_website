@@ -47,7 +47,7 @@ export default function Collections() {
 
   return (
     <section id="collections" ref={sectionRef} className="py-24 md:py-32 bg-[#1A1512]">
-      <div className="max-w-6xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
 
         {/* Centred title block */}
         <div ref={titleRef} className="text-center mb-16">

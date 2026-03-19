@@ -111,7 +111,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#1A1512]/40 via-transparent to-[#1A1512]/80 z-10" />
 
       {/* Content */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 text-center">
+      <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-8 text-center">
         <p className="text-[11px] tracking-[0.5em] uppercase text-[#C8A96E] mb-6 font-light">
           Premium Ceramic Tableware
         </p>
